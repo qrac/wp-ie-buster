@@ -28,7 +28,7 @@ https://ie-buster.qranoko.jp
 
 ## License
 
-- MIT
+- GPLv2 or later
 
 ## Credit
 

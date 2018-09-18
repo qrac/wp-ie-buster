@@ -3,7 +3,7 @@
 Plugin Name: IE Buster
 Plugin URI: https://ie-buster.qranoko.jp
 Description: IE ユーザーに Chrome を促す 1.5KB のポップアップ JS
-Version: 0.0.1
+Version: 0.0.2
 Author: Qrac
 Author URI: https://qrac.jp
 License: GPLv2 or later
