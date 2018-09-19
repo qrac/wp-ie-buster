@@ -1,12 +1,20 @@
 # IE Buster WordPress Plugin
 
+<p align="center">
+  <img width="230" src="https://i.gyazo.com/a238286ee75bc88afb08abb435192bf1.png" alt="IE Buster Logo Illustration">
+</p>
+
 ## Site
 
 https://ie-buster.qranoko.jp
 
-## Use
+## About
 
-[ダウンロード](https://github.com/qrac/ie-buster-wp-plugin/archive/master.zip)した Zip ファイルをそのまま WordPress のプラグイン追加でインストールする、もしくは解凍して FTP でアップする。
+[IE Buster](https://ie-buster.qranoko.jp) を PHP で書き直し WordPress プラグインとして使えるようにしました。
+
+## How To Use
+
+[ダウンロード](https://github.com/qrac/ie-buster-wp-plugin/archive/master.zip)した Zip ファイルをそのまま WordPress のプラグイン追加でインストールする、もしくは解凍して FTP でアップロードしてください。プラグインを有効化するだけで IE にポップアップを表示できます。
 
 ※今のところ WordPress 公式には入っていません
 
