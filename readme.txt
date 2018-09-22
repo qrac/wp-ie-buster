@@ -1,4 +1,4 @@
-=== IE Buster WordPress Plugin ===
+=== WP IE Buster ===
 Contributors: qrac
 Donate link: https://ie-buster.qranoko.jp/
 Tags: ie, buster, popup, download, link
@@ -13,17 +13,17 @@ Save WordPress creators with Chrome link popup for IE.
 
 == Description ==
 
-"IE Buster WordPress Plugin" is a popup display plug-in that urges Chrome to Internet Explorer (IE) users. I made it to save WordPress developers.
+"WP IE Buster" is a popup display plug-in that urges Chrome to Internet Explorer (IE) users. I made it to save WordPress developers.
 
 In many cases, IE users are not aware of browser type. Even if I strongly deny IE, a more natural approach is needed because a regrettable response comes back "What is that?"
 
-So I developed "IE Buster WordPress Plugin". Just by activating the plugin, users using IE 8 - 11 will see a popup prompting for Chrome download.
+So I developed "WP IE Buster". Just by activating the plugin, users using IE 8 - 11 will see a popup prompting for Chrome download.
 
 UI is Microsoft 's Fabric style, wording is appealing to security. There is no close button. It is because you will not be able to continue browsing with browsers that are not recommended environment.
 
 We will deliver the right proposal to the IE user as politely as possible.
 
-Although it may not be as strong as the naming destructive power, I'd appreciate it if "IE Buster WordPress Plugin" becomes one that saves web makers.
+Although it may not be as strong as the naming destructive power, I'd appreciate it if "WP IE Buster" becomes one that saves web makers.
 
 == Installation ==
 
