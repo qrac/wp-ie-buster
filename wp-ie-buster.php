@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP IE Buster
 Plugin URI: https://ie-buster.qranoko.jp
-Description: IE ユーザーに Chrome を促す 1.5KB のポップアップ JS
+Description: IE ユーザーに Chrome を促すポップアップを表示します
 Version: 1.0.0
 Author: Qrac
 Author URI: https://qrac.jp
