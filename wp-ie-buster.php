@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: IE Buster
+Plugin Name: WP IE Buster
 Plugin URI: https://ie-buster.qranoko.jp
 Description: IE ユーザーに Chrome を促す 1.5KB のポップアップ JS
 Version: 1.0.0
@@ -9,7 +9,7 @@ Author URI: https://qrac.jp
 License: GPLv2 or later
 */
 
-function ie_buster_app_print() {
+function wp_ie_buster_app_print() {
   global $is_IE;
   if ($is_IE) {
   echo '
@@ -23,4 +23,4 @@ function ie_buster_app_print() {
   ';
   }
 }
-add_action( 'wp_footer', 'ie_buster_app_print' );
+add_action( 'wp_footer', 'wp_ie_buster_app_print' );
