@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: WP IE Buster
+Plugin Name: WP IE Buster - Dev
 Plugin URI: https://ie-buster.qranoko.jp
-Description: IE ユーザーに Chrome を促すポップアップを表示します
+Description: IE ユーザーに Chrome を促すポップアップを表示します（開発バージョン）
 Version: 1.0.0
 Author: Qrac
 Author URI: https://qrac.jp
