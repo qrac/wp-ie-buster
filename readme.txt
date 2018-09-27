@@ -1,6 +1,6 @@
 === WP IE Buster ===
 Contributors: qrac
-Donate link: https://ie-buster.qranoko.jp/
+Donate link: https://wordpress.org/plugins/wp-ie-buster/
 Tags: ie, buster, popup, download, link
 Requires at least: 4.6
 Tested up to: 4.9.8
@@ -19,7 +19,7 @@ In many cases, IE users are not aware of browser type. Even if I strongly deny I
 
 So I developed "WP IE Buster". Just by activating the plugin, users using IE 8 - 11 will see a popup prompting for Chrome download.
 
-UI is Microsoft 's Fabric style, wording is appealing to security. There is no close button. It is because you will not be able to continue browsing with browsers that are not recommended environment.
+UI is Microsoft 's Fabric style. There is no close button. It is because you will not be able to continue browsing with browsers that are not recommended environment.
 
 We will deliver the right proposal to the IE user as politely as possible.
 
@@ -42,10 +42,16 @@ IE8, IE9, IE10, IE11
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix text, Add id
+
 = 1.0.0 =
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+* Fix text, Add id
 
 = 1.0.0 =
 * First release
