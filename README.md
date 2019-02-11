@@ -27,15 +27,6 @@ https://ie-buster.qranoko.jp
 - IE 10
 - IE 11
 
-## Develop
-
-- MacBook Pro: 13-inch 2016 No-touchbar
-- OS: macOS High Sierra 10.13.6
-- WordPress: v4.9.8
-- PHP: v7.2.0
-- MySQL: v5.6.34
-- Local by Flywheel: v2.4.0
-
 ## License
 
 - GPLv2 or later
