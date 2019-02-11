@@ -1,0 +1,72 @@
+# Copyright (C) 2019 Qrac
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP IE Buster 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-ie-buster-"
+"dev\n"
+"POT-Creation-Date: 2019-02-11 13:05:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-02-11 22:06+0900\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin/theme
+msgid "WP IE Buster"
+msgstr "WP IE Buster"
+
+#: includes/admin/class-wp-ie-buster-admin.php:43
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: includes/admin/class-wp-ie-buster-admin.php:49
+msgid "Main text"
+msgstr "メインテキスト"
+
+#: includes/admin/class-wp-ie-buster-admin.php:56
+msgid "Link text"
+msgstr "リンクテキスト"
+
+#: includes/admin/class-wp-ie-buster-admin.php:63
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-wp-ie-buster.php:20
+msgid ""
+"Your Internet browser is not recommended environment. We can not guarantee "
+"the behavior of the website, so please use the latest Google Chrome."
+msgstr ""
+"ご利用のインターネットブラウザは推奨環境ではありません。Webサイトの動作が保"
+"証できませんので、最新の Google Chrome をご利用ください。"
+
+#: includes/class-wp-ie-buster.php:21
+msgid "Go to download"
+msgstr "ダウンロードページへ"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-ie-buster/"
+msgstr "https://wordpress.org/plugins/wp-ie-buster/"
+
+#. Description of the plugin/theme
+msgid "Display a popup to prompt IE users Chrome"
+msgstr "IE ユーザーに Chrome を促すポップアップを表示します"
+
+#. Author of the plugin/theme
+msgid "Qrac"
+msgstr "Qrac"
+
+#. Author URI of the plugin/theme
+msgid "https://qrac.jp"
+msgstr "https://qrac.jp"
