@@ -1,5 +1,5 @@
 === WP IE Buster ===
-Contributors: qrac
+Contributors: qrac, ko31
 Donate link: https://wordpress.org/plugins/wp-ie-buster/
 Tags: ie, buster, popup, download, link
 Requires at least: 4.6
