@@ -3,7 +3,7 @@
 Plugin Name: WP IE Buster - Dev
 Plugin URI: https://wordpress.org/plugins/wp-ie-buster/
 Description: IE ユーザーに Chrome を促すポップアップを表示します（開発バージョン）
-Version: 1.0.1
+Version: 1.1.0
 Author: Qrac
 Author URI: https://qrac.jp
 License: GPLv2 or later
