@@ -12,13 +12,9 @@ https://ie-buster.qranoko.jp
 
 [IE Buster](https://ie-buster.qranoko.jp) を PHP で書き直し WordPress プラグインとして使えるようにしました。[WordPress 公式プラグインディレクトリ](https://wordpress.org/plugins/wp-ie-buster/)に登録されています。
 
-`wp-ie-buster-dev` は、公式プラグインを同居させながら開発するためにリネームして Git 管理しているリポジトリです。完成したデータを別途 Subversion で公式にアップロードしています。
-
 ## How To Use
 
 ダッシュボードの公式プラグイン追加から `ie buster` などで検索・インストールし、プラグインを有効化するだけで IE にポップアップを表示できます。
-
-※開発バージョンを利用する場合は、[ダウンロード](https://github.com/qrac/wp-ie-buster-dev/archive/master.zip)した Zip ファイルをそのまま WordPress のプラグイン追加でインストールする、もしくは解凍して FTP でアップロードしてください。
 
 ## Support
 
