@@ -39,6 +39,7 @@ IE8, IE9, IE10, IE11
 == Screenshots ==
 
 1. screenshot-1.png
+2. screenshot-2.png
 
 == Changelog ==
 
