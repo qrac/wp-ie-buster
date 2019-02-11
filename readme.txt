@@ -45,6 +45,7 @@ IE8, IE9, IE10, IE11
 
 = 1.1.0 =
 * Add option
+* Supported English
 
 = 1.0.1 =
 * Fix text, Add id
