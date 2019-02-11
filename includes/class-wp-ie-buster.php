@@ -15,8 +15,10 @@ class Wp_Ie_Buster {
   public function __construct() {
     $this->plugin_name = 'wp-ie-buster';
 
-    self::$default_main_text = __( 'ご利用のインターネットブラウザは推奨環境ではありません。Webサイトの動作が保証できませんので、最新の Google Chrome をご利用ください。', $this->plugin_name );
-    self::$default_link_text = __( 'ダウンロードページへ', $this->plugin_name );
+    $this->load_plugin_textdomain();
+
+    self::$default_main_text = __( 'Your Internet browser is not recommended environment. We can not guarantee the behavior of the website, so please use the latest Google Chrome.', 'wp-ie-buster' );
+    self::$default_link_text = __( 'Go to download', 'wp-ie-buster' );
     self::$default_url       = 'https://www.google.com/chrome/';
 
     if ( is_admin() ) {
@@ -24,6 +26,14 @@ class Wp_Ie_Buster {
     }
 
     add_action( 'wp_footer', array( $this, 'wp_ie_buster_app_print' ) );
+  }
+
+  public function load_plugin_textdomain() {
+    load_plugin_textdomain(
+      $this->plugin_name,
+      false,
+      dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+    );
   }
 
   public function wp_ie_buster_app_print() {

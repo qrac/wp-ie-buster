@@ -2,10 +2,12 @@
 /*
 Plugin Name: WP IE Buster
 Plugin URI: https://wordpress.org/plugins/wp-ie-buster/
-Description: IE ユーザーに Chrome を促すポップアップを表示します
+Description: Display a popup to prompt IE users Chrome
 Version: 1.1.0
 Author: Qrac
 Author URI: https://qrac.jp
+Text Domain: wp-ie-buster
+Domain Path: /languages
 License: GPLv2 or later
 */
 
