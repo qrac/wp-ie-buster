@@ -45,7 +45,19 @@ IE8, IE9, IE10, IE11
 
 == Changelog ==
 
-= 1.1.0 =
+= 1.1.1 =
+* Add option
+* Supported English
+
+= 1.0.1 =
+* Fix text, Add id
+
+= 1.0.0 =
+* First release
+
+== Upgrade Notice ==
+
+= 1.1.1 =
 * Add option
 * Supported English
 
