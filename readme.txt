@@ -3,8 +3,8 @@ Contributors: qrac, ko31
 Donate link: https://wordpress.org/plugins/wp-ie-buster/
 Tags: ie, buster, popup, download, link
 Requires at least: 4.6
-Tested up to: 5.4.2
-Stable tag: 1.1.2
+Tested up to: 5.5
+Stable tag: 1.1.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -44,6 +44,9 @@ IE8, IE9, IE10, IE11
 4. screenshot-4.png
 
 == Changelog ==
+
+= 1.1.3 =
+* Test with WordPress 5.5
 
 = 1.1.2 =
 * Test with WordPress 5.4
