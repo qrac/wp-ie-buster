@@ -3,7 +3,7 @@
 Plugin Name: WP IE Buster
 Plugin URI: https://wordpress.org/plugins/wp-ie-buster/
 Description: Display a popup to prompt IE users Chrome
-Version: 1.1.3
+Version: 1.2.2
 Author: Qrac
 Author URI: https://qrac.jp
 Text Domain: wp-ie-buster
