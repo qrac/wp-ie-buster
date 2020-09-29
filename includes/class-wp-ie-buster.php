@@ -50,6 +50,7 @@ class Wp_Ie_Buster {
         <a style="display: block; float: right; height: 36px; width: 154px; padding: 0 16px; background-color: rgb(0, 120, 212); box-sizing: border-box; color: #fff; font-size: 12px; font-weight: 400; line-height: 36px; text-align: center; text-decoration: none; white-space: nowrap;" href="' . esc_url( $url ) . '" target="_blank" rel="noopener noreferrer">' . esc_html( $link_text ) . '</a>
         <div style="clear: both;"></div>
       </div>
+      <style>@supports not (-ms-high-contrast: none) {#ie-buster-app { display: none; }}</style>
     </div>
   ';
     }
