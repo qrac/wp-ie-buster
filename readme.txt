@@ -3,8 +3,8 @@ Contributors: qrac, ko31
 Donate link: https://wordpress.org/plugins/wp-ie-buster/
 Tags: ie, buster, popup, download, link
 Requires at least: 4.6
-Tested up to: 5.6
-Stable tag: 1.3.0
+Tested up to: 5.7
+Stable tag: 1.4.0
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -42,8 +42,12 @@ IE8, IE9, IE10, IE11
 2. screenshot-2.png
 3. screenshot-3.png
 4. screenshot-4.png
+5. screenshot-5.png
 
 == Changelog ==
+
+= 1.4.0 =
+* Added debug mode and support for TranslatePress
 
 = 1.3.0 =
 * Allow URLs to open in Microsoft Edge

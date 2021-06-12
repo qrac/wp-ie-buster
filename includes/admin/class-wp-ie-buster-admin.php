@@ -65,6 +65,13 @@ class Wp_Ie_Buster_Admin {
       $this->plugin_name,
       'basic_settings'
     );
+    add_settings_field(
+      'debug_mode',
+      __( 'Debug Mode', 'wp-ie-buster' ),
+      [ $this, 'debug_mode_callback' ],
+      $this->plugin_name,
+      'basic_settings'
+    );
   }
 
   public function main_text_callback() {
@@ -77,7 +84,7 @@ class Wp_Ie_Buster_Admin {
       placeholder="<?php echo esc_attr( Wp_Ie_Buster::get_default_main_text() ); ?>"
       value="<?php echo esc_attr( $main_text ); ?>"
       class="regular-text"
-    >
+    />
     <?php
   }
 
@@ -91,7 +98,7 @@ class Wp_Ie_Buster_Admin {
       placeholder="<?php echo esc_attr( Wp_Ie_Buster::get_default_link_text() ); ?>"
       value="<?php echo esc_attr( $link_text ); ?>"
       class="regular-text"
-    >
+    />
     <?php
   }
 
@@ -105,7 +112,20 @@ class Wp_Ie_Buster_Admin {
       placeholder="<?php echo esc_attr( Wp_Ie_Buster::get_default_url() ); ?>"
       value="<?php echo esc_attr( $url ); ?>"
       class="regular-text"
-    >
+    />
+    <?php
+  }
+
+  public function debug_mode_callback() {
+    $debug_mode = isset( $this->options['debug_mode'] ) ? $this->options['debug_mode'] : '';
+    ?>
+    <input
+      name="<?php echo $this->option_name; ?>[debug_mode]"
+      type="checkbox"
+      id="debug_mode"
+      value="1"
+      <?php checked( '1', $debug_mode ); ?>
+    /> <?php echo __( 'Displayed in all browsers for logged-in users', 'wp-ie-buster' ); ?>
     <?php
   }
 

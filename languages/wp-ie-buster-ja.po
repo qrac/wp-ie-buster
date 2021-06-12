@@ -5,25 +5,27 @@ msgstr ""
 "Project-Id-Version: WP IE Buster 1.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-ie-buster-"
 "dev\n"
-"POT-Creation-Date: 2019-02-11 13:05:30+00:00\n"
+"POT-Creation-Date: 2021-06-12 15:18+0900\n"
+"PO-Revision-Date: 2021-06-12 15:20+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-02-11 22:06+0900\n"
-"Language-Team: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
-"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
-"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 2.2.1\n"
-"Last-Translator: \n"
-"Language: ja\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#. Plugin Name of the plugin/theme
+#: includes/admin/class-wp-ie-buster-admin.php:28
+#: includes/admin/class-wp-ie-buster-admin.php:29
+#: includes/admin/class-wp-ie-buster-admin.php:135
 msgid "WP IE Buster"
 msgstr "WP IE Buster"
 
@@ -43,6 +45,14 @@ msgstr "リンクテキスト"
 msgid "URL"
 msgstr "URL"
 
+#: includes/admin/class-wp-ie-buster-admin.php:70
+msgid "Debug Mode"
+msgstr "デバッグモード"
+
+#: includes/admin/class-wp-ie-buster-admin.php:128
+msgid "Displayed in all browsers for logged-in users"
+msgstr "ログインユーザーには全てのブラウザで表示"
+
 #: includes/class-wp-ie-buster.php:20
 msgid ""
 "Your Internet browser is not recommended environment. We can not guarantee "
@@ -55,18 +65,14 @@ msgstr ""
 msgid "Go to download"
 msgstr "ダウンロードページへ"
 
-#. Plugin URI of the plugin/theme
-msgid "https://wordpress.org/plugins/wp-ie-buster/"
-msgstr "https://wordpress.org/plugins/wp-ie-buster/"
+#~ msgid "https://wordpress.org/plugins/wp-ie-buster/"
+#~ msgstr "https://wordpress.org/plugins/wp-ie-buster/"
 
-#. Description of the plugin/theme
-msgid "Display a popup to prompt IE users Chrome"
-msgstr "IE ユーザーに Chrome を促すポップアップを表示します"
+#~ msgid "Display a popup to prompt IE users Chrome"
+#~ msgstr "IE ユーザーに Chrome を促すポップアップを表示します"
 
-#. Author of the plugin/theme
-msgid "Qrac"
-msgstr "Qrac"
+#~ msgid "Qrac"
+#~ msgstr "Qrac"
 
-#. Author URI of the plugin/theme
-msgid "https://qrac.jp"
-msgstr "https://qrac.jp"
+#~ msgid "https://qrac.jp"
+#~ msgstr "https://qrac.jp"
