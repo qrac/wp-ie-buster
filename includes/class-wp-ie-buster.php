@@ -39,7 +39,9 @@ class Wp_Ie_Buster {
   public function wp_ie_buster_app_print() {
     global $is_IE;
     $options     = get_option( $this->plugin_name );
-    $debug_mode  = $options['debug_mode'] && is_user_logged_in() ? true : false;
+
+    $debug_mode  = empty($options['debug_mode']) ? '' : $options['debug_mode'];
+    $is_debug_mode  = $debug_mode && is_user_logged_in() ? true : false;
 
     if ( $is_IE || $debug_mode ) {
       $main_text = ( ! empty( $options['main_text'] ) ) ? $options['main_text'] : self::$default_main_text;

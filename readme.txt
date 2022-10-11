@@ -3,8 +3,8 @@ Contributors: qrac, ko31
 Donate link: https://wordpress.org/plugins/wp-ie-buster/
 Tags: ie, buster, popup, download, link
 Requires at least: 4.6
-Tested up to: 5.7
-Stable tag: 1.4.0
+Tested up to: 6.0
+Stable tag: 1.4.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -45,6 +45,9 @@ IE8, IE9, IE10, IE11
 5. screenshot-5.png
 
 == Changelog ==
+
+= 1.4.1 =
+* Fixed undefined index by debug_mode
 
 = 1.4.0 =
 * Added debug mode and support for TranslatePress
