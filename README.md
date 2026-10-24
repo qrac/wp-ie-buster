@@ -2,7 +2,8 @@
 
 ## Site & Documentation
 
-https://ie-buster.qranoko.jp
+- https://ie-buster.qranoko.jp
+- https://wordpress.org/plugins/wp-ie-buster/
 
 ## About
 
